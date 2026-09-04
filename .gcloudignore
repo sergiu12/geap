@@ -1,0 +1,43 @@
+.gcloudignore
+.git
+.gitignore
+
+# Environment files & secrets
+.env
+.env.*
+.env.secrets
+.env.local
+.env.*.local
+env
+env.*
+env.secrets
+*.secrets
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Product Backlog & Internal Notes
+product/
+
+# Benchmarking binaries
+vllm-bench
+

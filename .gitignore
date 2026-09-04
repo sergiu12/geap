@@ -1,0 +1,43 @@
+# Environment files & secrets
+.env
+.env.*
+.env.secrets
+.env.local
+.env.*.local
+env
+env.*
+env.secrets
+*.secrets
+
+# Allow public templates and defaults
+!.env.example
+!.env.defaults
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Internal Product Roadmaps & Task Backlogs
+product/
+
+# Benchmarking binaries
+vllm-bench
+
